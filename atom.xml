@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bibiwangke123.github.io/eileen.github.io/"/>
-  <updated>2019-09-19T02:04:00.373Z</updated>
+  <updated>2019-09-19T05:08:31.864Z</updated>
   <id>https://bibiwangke123.github.io/eileen.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+Next+github搭建个人博客</title>
+    <link href="https://bibiwangke123.github.io/eileen.github.io/2019/09/19/Hexo-Next-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://bibiwangke123.github.io/eileen.github.io/2019/09/19/Hexo-Next-github搭建个人博客/</id>
+    <published>2019-09-19T05:00:48.000Z</published>
+    <updated>2019-09-19T05:08:31.864Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="https://bibiwangke123.github.io/eileen.github.io/tags/Hexo/"/>
+    
+      <category term="博客" scheme="https://bibiwangke123.github.io/eileen.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>try</title>

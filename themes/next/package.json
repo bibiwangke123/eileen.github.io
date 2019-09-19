@@ -39,3 +39,5 @@
     "meplayer": "^0.1.4"
   }
 }
+
+"hexo-tag-cloud": "2.1.*"

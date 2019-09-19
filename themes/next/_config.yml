@@ -94,12 +94,12 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: https://bibiwangke123.github.io/eileen.github.io/ || home
-  about: /eileen.github.io/about/ || user
-  tags: /eileen.github.io//tags/ || tags
-  categories: /eileen.github.io/categories/ || th
-  archives: /eileen.github.io/archives/ || archive
+  about: https://bibiwangke123.github.io/eileen.github.io/about/ || user
+  tags: /tags/ || tags
+  categories: https://bibiwangke123.github.io/eileen.github.io/categories/ || th
+  archives: https://bibiwangke123.github.io/eileen.github.io/archives/ || archive
   #schedule: /eileen.github.io/schedule/ || calendar
-  sitemap: /eileen.github.io/sitemap.xml || sitemap
+  sitemap: https://bibiwangke123.github.io/eileen.github.io/sitemap.xml || sitemap
   commonweal: /404.html || heartbeat
   #search: /eileen.github.io/search/ || search
 

@@ -1,7 +1,7 @@
 ---
-title: Hexo+Next+github搭建个人博客
-date: 2019-09-19 17:00:48
-tags: 
+title: Hexo-Next-github搭建个人博客
+date: 2019-09-23 10:51:43
+tags:
 - Hexo
 - 博客
 categroies: 博客
@@ -39,19 +39,19 @@ copyright: true
 
 [什么是hexo]([https://hexo.io](https://hexo.io/))
 
->  Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Heroku上，是搭建博客的首选框架。这里我们选用的是GitHub，你没看错，全球最大的同性恋交友网站（逃……）。Hexo同时也是GitHub上的开源项目，参见：[hexojs/hexo](https://link.zhihu.com/?target=https%3A//github.com/hexojs/hexo) 如果想要更加全面的了解Hexo，可以到其官网 [Hexo](https://link.zhihu.com/?target=https%3A//hexo.io/) 了解更多的细节，因为Hexo的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。这里，默认各位猿/媛儿都知道GitHub就不再赘述。
+> Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Heroku上，是搭建博客的首选框架。这里我们选用的是GitHub，你没看错，全球最大的同性恋交友网站（逃……）。Hexo同时也是GitHub上的开源项目，参见：[hexojs/hexo](https://link.zhihu.com/?target=https%3A//github.com/hexojs/hexo) 如果想要更加全面的了解Hexo，可以到其官网 [Hexo](https://link.zhihu.com/?target=https%3A//hexo.io/) 了解更多的细节，因为Hexo的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。这里，默认各位猿/媛儿都知道GitHub就不再赘述。
 
 ## 准备工作
 
 ### 查看环境
 
-system：**MacOS** ```看自己的电脑属于什么系统```
+system：**MacOS**  ```看自己的电脑属于什么系统```
 
-Node.js:  **v10.16.3** ```写作时的版本```
+Node.js:  **v10.16.3**  ```写作时的版本```
 
-git:  **git version 2.23.0**  ```写作时的版本```
+git:  **git version 2.23.0**   ```写作时的版本```
 
-###安装Git
+### 安装Git
 
 git是凯源的分布式版本控制系统，用于敏捷高效地处理项目，bulabula～～有兴趣的小伙伴可以直接Google或者百度。在这里我想说的是：我们的网站在本地搭建好了,如果想同步到GitHub上，这时候git就发挥作用了。安装 Git 的话，如果是 windows 系统，可以直接去[windows的Git下载地址](https://gitforwindows.org/)去下载，如果是 macOS 的话，也可以在[这里下载](https://www.git-scm.com/download/)。当这些环境都部署好之后，就可以开始我们的 Hexo 博客安装啦！
 
@@ -73,7 +73,7 @@ Hexo是基于node.js渲染的，所以在正式开始之前，下载起来！[No
 
 ```hexo init ```   初始化hexo（这个步骤会有点慢，初始化完成后你会发现我们刚才创建的文件夹里有如下文件夹）
 
-![Mac终端显示](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/WX20190920-110811.png)
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xrpzs7j30ox08rq4k.jpg)
 
 这个里面有一个`_config.xml`文件，这个我们叫做 ：<font color="#dd0000">站点根目录配置文件</font> ，里面的初始内容如下：（附上中文介绍）
 
@@ -152,11 +152,11 @@ deploy:
 
 到这里，我们的hexo的雏形已经搞定了！让我们一起来瞅瞅吧～
 
-``` //cd Myblog
+```//cd Myblog
 hexo clean && hexo g && hexo s
 ```
 
-![image-20190920114951291](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/image-20190920114951291.png)
+![image-20190920114951291](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xwmlopj311r0oo146.jpg)
 
 当然这是我已经处理过主题设置的网页了，你们也可以根据自己的要求去设计自己的网页。
 
@@ -166,9 +166,9 @@ hexo clean && hexo g && hexo s
 
 ### 创建GitHub仓库
 
-首先，我们需要在GitHub创建一个repository，在登陆账号之后，点击右上角的new，创建新的仓库。![image-20190923094625181](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/image-20190923094625181.png)
+首先，我们需要在GitHub创建一个repository，在登陆账号之后，点击右上角的new，创建新的仓库。![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xusxkbj30s10iymyz.jpg)
 
-![image-20190923095337061](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/image-20190923095337061.png)
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xuanf0j30rp0joac9.jpg)
 
 **注意这里名字可以为```GitHub用户名.github.io```**，这样设置好以后，我们在不绑定域名的前提下，可以直接使用http://xxxxx.github.io 来直接访问自己博客。（这里Eileen因为之前打过一个以用户名创建的网页，后来因为出国，所有的配置都有所改变，这里并没有直接用自己的用户名搭建，后面会专门出一个帖子说明怎么在不同的电脑上进行切换发布）。
 
@@ -182,9 +182,9 @@ hexo clean && hexo g && hexo s
 
 在提示后连续回车，最终会生成一个文件夹```.ssh```，里面存放了密钥，然后我们把id_rsa.pub密钥的全部内容复制，打开[GitHub_Settings_keys](https://link.zhihu.com/?target=https%3A//github.com/settings/keys) 页面，新建new SSH Key
 
-![image-20190923100738043](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/image-20190923100738043.png)
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xttme0j30ol0eejta.jpg)
 
-title可以随意填写一个，然后将复制好的id_rsa.pub内容粘贴进去，最后点击Add SSH Key。![image-20190923101053626](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/image-20190923101053626.png)
+title可以随意填写一个，然后将复制好的id_rsa.pub内容粘贴进去，最后点击Add SSH Key。![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xtcneqj30oi04ggme.jpg)
 
 使用``` ssh git@github.com```来检测是否设置成功。
 
@@ -203,11 +203,10 @@ git config --global user.email  "xxx@qq.com" // 填写你的github注册邮箱
 
 首先打开hexo站点的配置文件，找到deploy部分，并填写以下配置信息：
 
-![image-20190923101744983](https://github.com/bibiwangke123/eileen.github.io/blob/hexo/source/images/image-20190923101744983.png)
+![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xsz37gj30m003lq3b.jpg)
 
 接着下载安装一个插件```hero-deployer-git```, 进入博客的根目录下用以下命令进行安装：
 
 ```npm install hexo-deployer-git --save```
 
 然后我们就可以使用```hexo clean && hexo g && hexo d```来完成一键部署到GitHub上了。现在试试结果如何吧～
-

@@ -1,71 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>try</title>
-      <link href="/2019/09/19/try/"/>
-      <url>/2019/09/19/try/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/09/19/hello-world/"/>
-      <url>/2019/09/19/hello-world/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[Hexo+Next+github搭建个人博客]]></title>
+    <url>%2F2019%2F09%2F19%2FHexo-Next-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[之前在国内的时候曾经一度心血来潮想搭建自己的博客来着，无奈之前自己的笔记都发布在了网易博客上了！最令人尴尬的是网易博客关！掉！了！心碎💔！于是转战成为知笔记。之前一直发现为知笔记挺好用，现在在国外交流，有很多笔记储存在云端，需要同步到本地！巨烦琐！ Anyway，我突然想到之前因为瞎搞搞过Hexo加GitHub搭建个人博客，既然这段时间无心科研，何不再重新操作一下，顺便记录下作为新博客的开端呢！那我们就开始吧～～～ [TOC] 参考大佬的blog Hexo博客+Next主题深度优化与定制 GitHub+Hexo 搭建个人网站详细教程 [hexo: (一)基于 github 托管的 hexo 个人博客搭建](https://chentging.github.io/2018/05/14/hexo：（一）基于 github 托管的 hexo 个人博客搭建/) Hexo-NexT配置超炫网页效果 参考了很多的博客教程，自己也是一点点在摸索，不会就Google或者百度！ 边摸索边学习嘛！ 事情都会解决的！大家动起来！搞一搞自己的小博客吧！ 前言一些拓展阅读～ 有兴趣就点击，没兴趣直接看下一部分哦！❤️ 什么是hexo Hexo是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Heroku上，是搭建博客的首选框架。这里我们选用的是GitHub，你没看错，全球最大的同性恋交友网站（逃……）。Hexo同时也是GitHub上的开源项目，参见：hexojs/hexo 如果想要更加全面的了解Hexo，可以到其官网 Hexo 了解更多的细节，因为Hexo的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。这里，默认各位猿/媛儿都知道GitHub就不再赘述。 准备工作查看环境system：MacOS 12Node.js: **v10.16.3** ```写作时的版本 git: git version 2.23.0 123456789101112###安装Gitgit是凯源的分布式版本控制系统，用于敏捷高效地处理项目，bulabula～～有兴趣的小伙伴可以直接Google或者百度。在这里我想说的是：我们的网站在本地搭建好了,如果想同步到GitHub上，这时候git就发挥作用了。安装 Git 的话，如果是 windows 系统，可以直接去[windows的Git下载地址](https://gitforwindows.org/)去下载，如果是 macOS 的话，也可以在[这里下载](https://www.git-scm.com/download/)。当这些环境都部署好之后，就可以开始我们的 Hexo 博客安装啦！``` git --version``` 检验下你的git安装成功了没有吧### 安装node.jsHexo是基于node.js渲染的，所以在正式开始之前，下载起来！[Node.js中文官网](http://nodejs.cn/download/) 选择好对应版本和系统的安装包！安装后看看node是否安装成功 ``` node -v 别忘了检测npm是否安装成功， 在terminal或者命令行中输入-v```1234### 安装Hexo在自己的电脑新建一个文件夹（在这里Eileen创建的是一个叫做MyBlog的文件夹），之后Hexo和以后自己发布的网页都在这个文件夹中。进入文件夹``` cd MyBlog install -g hexo-cli``` 使用npm命令安装Hexo123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778```hexo init ``` 初始化hexo（这个步骤会有点慢，初始化完成后你会发现我们刚才创建的文件夹里有如下文件夹）![Mac终端显示](/Users/kewang/Documents/MyBlog/eileen.github.io/source/images/WX20190920-110811.png)这个里面有一个`_config.xml`文件，这个我们叫做 ：&lt;font color="#dd0000"&gt;站点根目录配置文件&lt;/font&gt; ，里面的初始内容如下：（附上中文介绍）```xml# Hexo Configuration## Docs: https://hexo.io/docs/configuration.html## Source: https://github.com/hexojs/hexo/# Site 站点主配置title: Hexo # 网站标题subtitle: # 网站副标题description: # 网站描述keywords: # 可以不填写保持默认author: John Doe # 网站拥有者昵称language: # 网站语言设置，一般根据依赖的主题而定timezone: # 网站时区设置，一般不填写保持默认# URL地址链接设置url: http://yoursite.com # 网站url设置root: / # 网站根目录链接permalink: :year/:month/:day/:title/ # 文章链接，默认是按照 /年/月/日/文章标题 设置的链接permalink_defaults: # 默认链接形式# Directory 网站主要目录，这里一般不做改动source_dir: sourcepublic_dir: publictag_dir: tagsarchive_dir: archivescategory_dir: categoriescode_dir: downloads/codei18n_dir: :langskip_render:# Writing 网站文章设置，同样一般不做改动new_post_name: :title.md # File name of new postsdefault_layout: posttitlecase: false # Transform title into titlecaseexternal_link: true # Open external links in new tabfilename_case: 0render_drafts: falsepost_asset_folder: falserelative_link: falsefuture: truehighlight: enable: true line_number: true auto_detect: false tab_replace: # Home page setting 主页设置，一般不做改动index_generator: path: '' per_page: 10 order_by: -date # 首页文章排序，默认是按照文章日期递减 # Category &amp; Tag 分类设置，一般不做改动default_category: uncategorizedcategory_map:tag_map:# Date / Time format 日期设置，一般不做改动date_format: YYYY-MM-DDtime_format: HH:mm:ss# Pagination 导航页设置，一般不做改动per_page: 10 # 设置每页展示多少文章pagination_dir: page# Extensions 使用的主题名称，可以在这里切换theme: next # 此处切换主题名称# Deployment 部署，一般选择部署到Github上deploy: type: 到这里，我们的hexo的雏形已经搞定了！让我们一起来瞅瞅吧～ Myblog1hexo clean &amp;&amp; hexo g &amp;&amp; hexo s 当然这是我已经处理过主题设置的网页了，你们也可以根据自己的要求去设计自己的网页。 将hexo博客部署到GitHub上在部署到GitHub上之前，我们需要准备好自己的GitHub账号，官网在这儿! 创建GitHub仓库首先，我们需要在GitHub创建一个repository，在登陆账号之后，点击右上角的new，创建新的仓库。 **注意这里名字可以为来直接访问自己博客。（这里Eileen因为之前打过一个以用户名创建的网页，后来因为出国，所有的配置都有所改变，这里并没有直接用自己的用户名搭建，后面会专门出一个帖子说明怎么在不同的电脑上进行切换发布）。12345678### 配置SSH Key如果是首次在自己的电脑上使用Git上传到GitHub，那么必须配置```SSH Key```，表示GitHub允许这台机器有权限使用git上传代码到远程仓库。这里Eileen用的实验室的Mac，所以就按照Mac的程序来啦😊～打开终端，然后输入：``` ssh-keygen -t rsa -C “GitHub注册邮箱地址” 在提示后连续回车，最终会生成一个文件夹12345678910![image-20190923100738043](/Users/kewang/Documents/MyBlog/eileen.github.io/source/images/image-20190923100738043.png)title可以随意填写一个，然后将复制好的id_rsa.pub内容粘贴进去，最后点击Add SSH Key。![image-20190923101053626](/Users/kewang/Documents/MyBlog/eileen.github.io/source/images/image-20190923101053626.png)使用``` ssh git@github.com```来检测是否设置成功。### 配置Git提交的用户信息上面配置成功后，我们就可以设置Git的全局用户信息了，这个信息设置当前git命令上传代码的用户信息。使用以下命令： git config –global user.name “Sanarous” // 你的github用户名，非昵称git config –global user.email “xxx@qq.com“ // 填写你的github注册邮箱 123456789101112配置完成之后，以后提交代码都是使用的这个用户信息进行提交的。### 将hexo博客部署到GitHub上首先打开hexo站点的配置文件，找到deploy部分，并填写以下配置信息：![image-20190923101744983](/Users/kewang/Documents/MyBlog/eileen.github.io/source/images/image-20190923101744983.png)接着下载安装一个插件```hero-deployer-git```, 进入博客的根目录下用以下命令进行安装：```npm install hexo-deployer-git --save 然后我们就可以使用hexo clean &amp;&amp; hexo g &amp;&amp; hexo d来完成一键部署到GitHub上了。现在试试结果如何吧～ document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[try]]></title>
+    <url>%2F2019%2F09%2F19%2Ftry%2F</url>
+    <content type="text"><![CDATA[document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F09%2F19%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
       <categories>
-          
-          <category> Test </category>
-          
+        <category>Test</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> -testing </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>new computer</title>
-      <link href="/2019/09/19/new-computer/"/>
-      <url>/2019/09/19/new-computer/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World.md</title>
-      <link href="/2019/09/18/Hello-World-md/"/>
-      <url>/2019/09/18/Hello-World-md/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>-testing</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[new computer]]></title>
+    <url>%2F2019%2F09%2F19%2Fnew-computer%2F</url>
+    <content type="text"><![CDATA[document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World.md]]></title>
+    <url>%2F2019%2F09%2F18%2FHello-World-md%2F</url>
+    <content type="text"><![CDATA[document.querySelectorAll('.github-emoji') .forEach(el => { if (!el.dataset.src) { return; } const img = document.createElement('img'); img.style = 'display:none !important;'; img.src = el.dataset.src; img.addEventListener('error', () => { img.remove(); el.style.color = 'inherit'; el.style.backgroundImage = 'none'; el.style.background = 'none'; }); img.addEventListener('load', () => { img.remove(); }); document.body.appendChild(img); });]]></content>
+  </entry>
 </search>

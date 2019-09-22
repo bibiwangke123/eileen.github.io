@@ -2,28 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/19/Hexo-Next-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/23/Hexo-Next-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     
-    <lastmod>2019-09-20T05:00:10.145Z</lastmod>
+    <lastmod>2019-09-22T23:38:39.468Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/19/try/</loc>
+    <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/23/test/</loc>
     
-    <lastmod>2019-09-19T02:04:00.373Z</lastmod>
+    <lastmod>2019-09-22T23:28:23.769Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://bibiwangke123.github.io/eileen.github.io/tags/index.html</loc>
-    
-    <lastmod>2019-09-18T23:19:40.907Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bibiwangke123.github.io/eileen.github.io/sitemap/index.html</loc>
     
     <lastmod>2019-09-18T23:19:40.907Z</lastmod>
     
@@ -44,6 +37,13 @@
   </url>
   
   <url>
+    <loc>https://bibiwangke123.github.io/eileen.github.io/sitemap/index.html</loc>
+    
+    <lastmod>2019-09-18T23:19:40.907Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://bibiwangke123.github.io/eileen.github.io/categories/index.html</loc>
     
     <lastmod>2019-09-18T23:19:40.874Z</lastmod>
@@ -52,13 +52,6 @@
   
   <url>
     <loc>https://bibiwangke123.github.io/eileen.github.io/archives/index.html</loc>
-    
-    <lastmod>2019-09-18T23:19:40.873Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/19/new-computer/</loc>
     
     <lastmod>2019-09-18T23:19:40.873Z</lastmod>
     
@@ -75,13 +68,6 @@
     <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/19/hello-world/</loc>
     
     <lastmod>2019-09-18T23:19:40.872Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://bibiwangke123.github.io/eileen.github.io/2019/09/18/Hello-World-md/</loc>
-    
-    <lastmod>2019-09-18T23:19:40.871Z</lastmod>
     
   </url>
   

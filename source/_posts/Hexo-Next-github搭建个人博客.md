@@ -45,39 +45,57 @@ copyright: true
 
 ### 查看环境
 
-system：**MacOS**  ```看自己的电脑属于什么系统```
-
-Node.js:  **v10.16.3**  ```写作时的版本```
-
-git:  **git version 2.23.0**   ```写作时的版本```
+system： MacOS `看自己的电脑属于什么系统 `
+Node.js:   v10.16.3 `写作时的版本 `
+git:   git version 2.23.0 `写作时的版本` 
 
 ### 安装Git
 
 git是凯源的分布式版本控制系统，用于敏捷高效地处理项目，bulabula～～有兴趣的小伙伴可以直接Google或者百度。在这里我想说的是：我们的网站在本地搭建好了,如果想同步到GitHub上，这时候git就发挥作用了。安装 Git 的话，如果是 windows 系统，可以直接去[windows的Git下载地址](https://gitforwindows.org/)去下载，如果是 macOS 的话，也可以在[这里下载](https://www.git-scm.com/download/)。当这些环境都部署好之后，就可以开始我们的 Hexo 博客安装啦！
 
-``` git --version```        检验下你的git安装成功了没有吧
+```
+git --version
+```
+
+检验下你的git安装成功了没有吧
 
 ### 安装node.js
 
 Hexo是基于node.js渲染的，所以在正式开始之前，下载起来！[Node.js中文官网](http://nodejs.cn/download/) 选择好对应版本和系统的安装包！
 
-安装后看看node是否安装成功 ``` node -v```
+安装后看看node是否安装成功 
 
-别忘了检测npm是否安装成功， 在terminal或者命令行中输入```npm -v```
+```
+node -v
+```
+
+别忘了检测npm是否安装成功， 在terminal或者命令行中输入
+
+```
+npm -v
+```
 
 ### 安装Hexo
 
-在自己的电脑新建一个文件夹（在这里Eileen创建的是一个叫做MyBlog的文件夹），之后Hexo和以后自己发布的网页都在这个文件夹中。进入文件夹``` cd MyBlog```
+在自己的电脑新建一个文件夹（在这里Eileen创建的是一个叫做MyBlog的文件夹），之后Hexo和以后自己发布的网页都在这个文件夹中。进入文件夹`cd MyBlog`
 
-``` npm install -g hexo-cli```	使用npm命令安装Hexo
+```
+npm install -g hexo-cli
+```
 
-```hexo init ```   初始化hexo（这个步骤会有点慢，初始化完成后你会发现我们刚才创建的文件夹里有如下文件夹）
+​	使用npm命令安装Hexo
+
+```
+hexo init 
+```
+
+  初始化hexo（这个步骤会有点慢，初始化完成后你会发现我们刚才创建的文件夹里有如下文件夹）
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xrpzs7j30ox08rq4k.jpg)
 
 这个里面有一个`_config.xml`文件，这个我们叫做 ：<font color="#dd0000">站点根目录配置文件</font> ，里面的初始内容如下：（附上中文介绍）
 
-```xml
+```站点配置文件
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
@@ -152,7 +170,7 @@ deploy:
 
 到这里，我们的hexo的雏形已经搞定了！让我们一起来瞅瞅吧～
 
-```//cd Myblog
+```
 hexo clean && hexo g && hexo s
 ```
 
@@ -170,23 +188,37 @@ hexo clean && hexo g && hexo s
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xuanf0j30rp0joac9.jpg)
 
-**注意这里名字可以为```GitHub用户名.github.io```**，这样设置好以后，我们在不绑定域名的前提下，可以直接使用http://xxxxx.github.io 来直接访问自己博客。（这里Eileen因为之前打过一个以用户名创建的网页，后来因为出国，所有的配置都有所改变，这里并没有直接用自己的用户名搭建，后面会专门出一个帖子说明怎么在不同的电脑上进行切换发布）。
+
+
+```
+注意这里名字可以为 GitHub用户名.github.io
+```
+
+这样设置好以后，我们在不绑定域名的前提下，可以直接使用http://xxxxx.github.io 来直接访问自己博客。（这里Eileen因为之前打过一个以用户名创建的网页，后来因为出国，所有的配置都有所改变，这里并没有直接用自己的用户名搭建，后面会专门出一个帖子说明怎么在不同的电脑上进行切换发布）。
 
 ### 配置SSH Key
 
-如果是首次在自己的电脑上使用Git上传到GitHub，那么必须配置```SSH Key```，表示GitHub允许这台机器有权限使用git上传代码到远程仓库。这里Eileen用的实验室的Mac，所以就按照Mac的程序来啦😊～
+如果是首次在自己的电脑上使用Git上传到GitHub，那么必须配置`SSH Key`，表示GitHub允许这台机器有权限使用git上传代码到远程仓库。这里Eileen用的实验室的Mac，所以就按照Mac的程序来啦😊～
 
 打开终端，然后输入：
 
-``` ssh-keygen -t rsa -C “GitHub注册邮箱地址” ```
+```
+ssh-keygen -t rsa -C “GitHub注册邮箱地址”
+```
 
-在提示后连续回车，最终会生成一个文件夹```.ssh```，里面存放了密钥，然后我们把id_rsa.pub密钥的全部内容复制，打开[GitHub_Settings_keys](https://link.zhihu.com/?target=https%3A//github.com/settings/keys) 页面，新建new SSH Key
+在提示后连续回车，最终会生成一个文件夹`.ssh`，里面存放了密钥，然后我们把id_rsa.pub密钥的全部内容复制，打开[GitHub_Settings_keys](https://link.zhihu.com/?target=https%3A//github.com/settings/keys) 页面，新建new SSH Key
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xttme0j30ol0eejta.jpg)
 
 title可以随意填写一个，然后将复制好的id_rsa.pub内容粘贴进去，最后点击Add SSH Key。![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xtcneqj30oi04ggme.jpg)
 
-使用``` ssh git@github.com```来检测是否设置成功。
+使用
+
+```
+ssh git@github.com
+```
+
+来检测是否设置成功。
 
 ### 配置Git提交的用户信息
 
@@ -205,8 +237,17 @@ git config --global user.email  "xxx@qq.com" // 填写你的github注册邮箱
 
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g792xsz37gj30m003lq3b.jpg)
 
-接着下载安装一个插件```hero-deployer-git```, 进入博客的根目录下用以下命令进行安装：
+接着下载安装一个插件`hero-deployer-git`, 进入博客的根目录下用以下命令进行安装：
 
-```npm install hexo-deployer-git --save```
+```
+npm install hexo-deployer-git --save
+```
 
-然后我们就可以使用```hexo clean && hexo g && hexo d```来完成一键部署到GitHub上了。现在试试结果如何吧～
+然后我们就可以使用
+
+```
+hexo clean && hexo g && hexo d
+```
+
+来完成一键部署到GitHub上了。现在试试结果如何吧～
+
